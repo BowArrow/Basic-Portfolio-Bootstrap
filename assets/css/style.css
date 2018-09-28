@@ -1,0 +1,79 @@
+body{
+    background-image: url("../../assets/images/qbkls.png");
+    background-repeat: repeat;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shadow{
+    box-shadow: 1px 3px 3px #cccccc;
+}
+
+.navLogo{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 15px 35px 15px 35px;
+    font-size: 30px;
+}
+
+.border-grey{
+    border-color: #dddddd;
+}
+
+.text-teal {
+    color: #4aaaa5;
+}
+
+.bg-teal {
+    background-color: #4aaaa5;
+}
+
+.border-fix{
+    border: none;
+    padding: 0;
+}
+
+.navbar-toggler{
+    margin: 15px 15px 0 0;
+}
+
+.nav-item .nav-link {
+    padding-left: 20px;
+}
+
+.text-grey {
+    color: #777;
+}
+
+.text-height {
+    line-height: 34px;
+}
+.image{
+    height: auto;
+    width: 100%;
+}
+
+.box-text{
+    color: white;
+    position: relative;
+    bottom: 70px;
+    margin-bottom: -70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+}
+
+.image:hover .box-text{
+    visibility: visible;
+    opacity: 0.7;
+}
+
